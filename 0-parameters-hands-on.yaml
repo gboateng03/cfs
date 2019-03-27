@@ -42,7 +42,7 @@ Parameters:
   DbSubnetIpBlocks:
     Description: "Comma-delimited list of three CIDR blocks"
     Type: CommaDelimitedList
-    Default: "10.0.48.0/24, 10.0.112.0/24, 10.0.176.0/24"
+    Default: "172.31.6.0/24, 172.31.7.0/24,172.31.8.0/24"
 
 Resources:
   MyEC2Instance:
